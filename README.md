@@ -8,7 +8,8 @@ A small end-to-end machine-learning project that predicts which telecom customer
 Can we predict churn better than a naive baseline, which factors are associated with it, and how much would the model help if only a fraction of customers can be contacted?
 
 ## Data
-IBM Telco Customer Churn sample dataset: 7,043 customers, 21 columns, 26.5% churn (`data/telco_customer_churn.csv`).
+IBM Telco Customer Churn sample dataset: 7,043 customers, 21 columns, 26.5% churn.
+The CSV is not included in this repository. Download it (search "IBM Telco Customer Churn" on Kaggle, or from IBM's public sample-data repository) and save it as `data/telco_customer_churn.csv` before running the notebook.
 
 ## Approach
 1. Clean the data (11 blank `TotalCharges` values belong to customers with zero tenure; they are imputed inside the pipeline to avoid leakage).
